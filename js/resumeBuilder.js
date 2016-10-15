@@ -53,6 +53,7 @@ if (bio.skills.length > 0) {
     $("#skills").append(formattedSkills);
 }
 
+// function
 function displayWork() {
     for (job in work.jobs) {
         $("#workExperience").append(HTMLworkStart);
